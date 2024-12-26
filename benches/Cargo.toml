@@ -22,7 +22,7 @@ bevy_tasks = { path = "../crates/bevy_tasks" }
 bevy_utils = { path = "../crates/bevy_utils" }
 
 # Other crates
-criterion = { version = "0.5.1", features = ["html_reports"] }
+criterion = { package = "codspeed-criterion-compat", version = "2.7.2", features = ["html_reports"] }
 glam = "0.29"
 rand = "0.8"
 rand_chacha = "0.3"
