@@ -29,7 +29,7 @@ jobs:
           sweep-cache: true
 
       - name: Install cargo-codspeed
-        run: cargo install cargo-codspeed --locked
+        run: cargo install cargo-codspeed --locked --force
 
       - name: Build Benchmarks
         run: cargo codspeed build -p benches
